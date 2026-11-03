@@ -1,0 +1,15 @@
+export const checkoutSelectors = {
+  FIRST_NAME: 'First Name',
+  LAST_NAME: 'Last Name',
+  POSTAL_CODE: 'Zip/Postal Code',
+  CONTINUE_BUTTON: 'Continue',
+  ITEM: 'inventory-item',
+  PRODUCT_NAME: 'inventory-item-name',
+  SUBTOTAL: 'subtotal-label',
+  TAX: 'tax-label',
+  TOTAL: 'total-label',
+  FINISH_BUTTON: 'Finish',
+  CONFIRMATION: 'Thank you for your order!',
+  COMPLETE_TEXT: 'complete-text',
+  CART_BADGE: 'shopping-cart-badge',
+} as const;
